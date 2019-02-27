@@ -3,7 +3,7 @@ import netifaces
 import uptime
 import json
 import os
-Ver = "0.0.2"
+Ver = "0.0.3"
 Data = {}
 Data["version"] = Ver
 user = ""

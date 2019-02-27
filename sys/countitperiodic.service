@@ -3,7 +3,7 @@ Description=countit Periodic program
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/countit/CountIoT/Periodic.py
+ExecStart=/home/countit/CountIoT/bat/countitPeriodicStart.sh
 Restart=always
 
 [Install]

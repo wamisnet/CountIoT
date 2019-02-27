@@ -1,0 +1,10 @@
+[Unit]
+Description=countit Periodic program
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/countit/CountIoT/Periodic.py
+Restart=always
+
+[Install]
+WantedBy = multi-user.target

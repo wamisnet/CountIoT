@@ -1,0 +1,10 @@
+[Unit]
+Description=SSM program
+
+[Service]
+Type=simple
+ExecStart=/home/countit/CountIoT/bat/ssmStart.sh
+Restart=always
+
+[Install]
+WantedBy = multi-user.target

@@ -1,0 +1,11 @@
+[Unit]
+Description=countit program
+After=syslog.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/countit/CountIoT/countit.py
+Restart=always
+
+[Install]
+WantedBy = multi-user.target

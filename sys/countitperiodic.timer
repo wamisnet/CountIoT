@@ -1,0 +1,9 @@
+[Unit]
+Description=countit Periodic program
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10min
+
+[Install]
+WantedBy = multi-user.target

@@ -3,8 +3,7 @@ import netifaces
 import uptime
 import json
 import os
-# プログラムバージョン
-Ver = "0.0.1"
+Ver = "0.0.2"
 Data = {}
 Data["version"] = Ver
 user = ""
@@ -28,6 +27,6 @@ result = response.json()
 print(result) 
 if response.status_code == 200:
     if result["update"] == True:
-        os.system("bat\gitpull.sh")
+        os.system("bat/gitpull.sh")
     if result["reboot"] == True:
-        os.system("bat\reboot.sh")
+        os.system("bat/reboot.sh")

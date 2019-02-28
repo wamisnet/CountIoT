@@ -1,5 +1,5 @@
 #!/bin/sh
 pip install uptime
 pip install netifaces
-pip install reqiests
+pip install requests
 python ../countit.py

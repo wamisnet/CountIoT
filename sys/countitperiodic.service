@@ -4,7 +4,3 @@ Description=countit Periodic program
 [Service]
 Type=simple
 ExecStart=/home/countit/CountIoT/bat/countitPeriodicStart.sh
-Restart=always
-
-[Install]
-WantedBy = multi-user.target

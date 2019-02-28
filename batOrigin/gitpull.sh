@@ -1,5 +1,6 @@
 #!/bin/sh
 git reset --hard
 git pull
-cp . /bat
+cd ..
+cp -r batOrigin/ bat/
 chmod 755 bat/*

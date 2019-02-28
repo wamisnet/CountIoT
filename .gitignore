@@ -1,3 +1,4 @@
 sensor.log
 user.txt
 MNLib/__pycache__/
+*.pyc

@@ -2,7 +2,7 @@
 Description=countit Periodic program
 
 [Timer]
-OnBootSec=5min
+OnBootSec=1min
 OnUnitActiveSec=10min
 
 [Install]

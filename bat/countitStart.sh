@@ -2,4 +2,6 @@
 pip install uptime
 pip install netifaces
 pip install requests
-python ../countit.py
+pip install logzero
+cd ..
+python countit.py

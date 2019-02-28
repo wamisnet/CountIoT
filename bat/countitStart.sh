@@ -3,5 +3,5 @@ pip install uptime
 pip install netifaces
 pip install requests
 pip install logzero
-cd ..
+cd /home/countit/CountIoT
 python countit.py

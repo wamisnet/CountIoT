@@ -2,5 +2,5 @@
 pip install uptime
 pip install netifaces
 pip install requests
-cd ..
+cd /home/countit/CountIoT
 python Periodic.py

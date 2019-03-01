@@ -47,7 +47,7 @@ def ParseArgs():
                           help='target for connection', dest='target', default='COM3')
     else:
         parser.add_option('-t', '--target', type='string',
-                          help='target for connection', dest='target', default='/dev/ttyUSB_TWELite')
+                          help='target for connection', dest='target', default='/dev/ttyUSB0')
 
     parser.add_option('-b', '--baud', dest='baud', type='int',
                       help='baud rate for serial connection.', metavar='BAUD', default=115200)
